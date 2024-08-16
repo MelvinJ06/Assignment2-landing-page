@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>HTML and Tailwind css Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="bg-white h-24 text-black p-2 ">
+        <!-- logo -->
+        <div class="container mx-auto flex item-center justify-between">
+            <div class="flex-shrink-0 ">
+                <img src="./Askmeidentity 2.jpg">
+            </div>
+
+            <!-- navigation -->
+            <nav class="flex-grow mx-2 mt-8 text-lg">
+                <ul class="flex justify-center space-x-8 font-bold ">
+                    <li><a href="#home" class="hover:text-gray-400 ">Home</a></li>
+                    <li><a href="#About" class="hover:text-gray-400 ">About</a></li>
+                    <li><a href="#Courses" class="hover:text-gray-400 ">Courses</a></li>
+                    <li><a href="#Contact" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="flex justify-center space-x-4 mr-28 mt-8 ">
+                <a href="#"><i class="fa-solid fa-cart-shopping hover:text-gray-400"></i></a>
+                <a href="#"><a href="#"><i class="fa-solid fa-user hover:text-gray-400"></i></i></a></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass hover:text-gray-400"></i></a>
+            </div>
+            <div class="flex justify-center space-x-6 ">
+                <a href="#login" class=" hover:text-gray-400 font-bold mt-8"><u>Login</u></a>
+                <button type="button" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4
+                     focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 
+                     text-center  mb-20 mt-6">Submit</button>
+            </div>
+        </div>
+    </header>
+    <section class=" bg-gradient-to-r from-violet-400 to-indigo-900 flex item-center text-white font-bold w-full  ">
+        <div class="ml-20 flex-1 text-center md:text-left px-4 md:px-8">
+            <h1 class="mt-12">SUCCESSFUL COACHES ARE VISIONARIES</h1>
+            <p class="text-6xl pt-4">Good <span class="text-indigo-900">coaching</span> is</p>
+            <p class="text-6xl ">Good teaching &</p>
+            <p class="text-6xl ">nothing else</p>
+            <div class="flex">
+                <button type="button" class=" flex text-gray-900 border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 
+            font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2  dark:text-white dark:border-white
+            dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-10">View
+                    Course</button>
+                <button type="button" class=" flex text-gray-900   focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 
+            font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2  dark:text-white dark:border-violet-600
+            dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-10">Get free consultation
+                </button>
+            </div>
+            <!-- Textarea -->
+            <div class="relative max-w-sm ">
+                <textarea id="hs-default-height-with-autoheight-script" class="max-h-36 py-3 ps-4 pe-20 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 bg-white
+                    focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  dark:border-neutral-700 
+                    dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600 resize-none overflow-y-auto 
+                    [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:
+                    [&::-webkit-scrollbar-thumb]: dark:[&::-webkit-scrollbar-track]:bg-neutral-700 
+                    dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500" placeholder="what you want to learn today?"
+                    rows="1" data-hs-default-height="48"></textarea>
+
+                <!-- Button Group -->
+                <div class="absolute top-2 end-3 z-10 ">
+                    <button type="button" class="py-1.5 px-3 inline-flex shrink-0 justify-center items-center 
+                        text-sm font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-500 focus:outline-none 
+                        focus:bg-blue-500 disabled:opacity-50 disabled:pointer-events-none">
+                        <i class="fa-solid fa-magnifying-glass hover:text-gray-400 pt-1"></i>&nbsp;Send
+                    </button>
+                </div>
+            </div>
+            <!-- End Textarea -->
+        </div>
+    </section>
+    <section class="bg-gradient-to-br from-purple-600 to-blue-500 pt-10">
+        <div class="flex justify-center item-center space-x-4 p-2 justify-between">
+            <a href="#"><img src="./spotify.png" alt=""></a>
+            <a href="#"><img src="./amazon.png" alt=""></a>
+            <a href="#"><img src="./cisco.png" alt=""></a>
+            <a href="#"><img src="./logi.png" alt=""></a>
+            <a href="#"><img src="./amazon.png" alt=""></a>
+        </div>
+    </section>
+    <section class=" mt-10 bg-white w-full justify-center ">
+        <div class="text-center">
+            <h1 class="text-6xl font-bold">Featured <span class="text-indigo-900">Course</span></h1>
+            <p class="text-3xl font-bold mt-4">THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART</p>
+        </div>
+        <div class=" mt-10  ml-2 mr-2 mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white border border-blue-700 rounded-lg overflow-hidden shadow-lg ">
+                <img src="./Mask group.png" class=" h-full object-cover">
+                <div class="p-4 flex justify-between item-center border-t border-gray-600">
+                    <div class="mt-2 item-center justify-end">
+                        <p>1,957 Students <span class="ml-56">01h 59m</span></p><br>
+                        <p><b>Motion Graphics: Create a Nice <br>
+                                Typography Animation</b></p>
+                        <h4 class="text-xl font-semibold "><br>rs.499 &nbsp;<a href="#"
+                                class="text-blue-500 hover:text-blue-900 "><i class="fa-solid fa-cart-plus "></i></a>
+                        </h4>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-white border border-blue-700 rounded-lg overflow-hidden shadow-lg ">
+                <img src="./Mask group (1).png" class=" h-full object-cover">
+                <div class="p-4 flex justify-between item-center border-t border-gray-600">
+                    <div class="mt-2 item-center justify-end">
+                        <p>9,575 Students <span class="ml-56">01h 59m</span></p><br>
+                        <p><b>Advance PHP knowledge with JS to
+                                make smart web</b></p>
+                        <h4 class="text-xl font-semibold "><br>rs.499 &nbsp;<a href="#"
+                                class="text-blue-500 hover:text-blue-900 "><i class="fa-solid fa-cart-plus "></i></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white border border-blue-700 rounded-lg overflow-hidden shadow-lg ">
+                <img src="./Mask group (2).png" class=" h-full object-cover">
+                <div class="p-4 flex justify-between item-center border-t border-gray-600">
+                    <div class="mt-2 item-center justify-end">
+                        <p>2957 Students <span class="ml-56">02h 49m</span></p><br>
+                        <p><b>Education Software and PHP and JS
+                                System Script</b></p>
+                        <h4 class="text-xl font-semibold "><br>rs.499 &nbsp;<a href="#"
+                                class="text-blue-500 hover:text-blue-900 "><i class="fa-solid fa-cart-plus "></i></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white border border-blue-700 rounded-lg overflow-hidden shadow-lg ">
+                <img src="./Mask group (3).png" class=" h-full object-cover">
+                <div class="p-4 flex justify-between item-center border-t border-gray-600">
+                    <div class="mt-2 item-center justify-end">
+                        <p>5,457 Students<span class="ml-56">01hr 49min</span></p><br>
+                        <p><b>The Complete Financial Analyst
+                                Training & Investing</b></p>
+                        <h4 class="text-xl font-semibold "><br>rs.499 &nbsp;<a href="#"
+                                class="text-blue-500 hover:text-blue-900 "><i class="fa-solid fa-cart-plus "></i></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white border border-blue-700 rounded-lg overflow-hidden shadow-lg ">
+                <img src="./Mask group (4).png" class=" h-full object-cover">
+                <div class="p-4 flex justify-between item-center border-t border-gray-600">
+                    <div class="mt-2 item-center justify-end">
+                        <p>595 students <span class="ml-56">01hr 49min</span></p><br>
+                        <p><b>Marketing 2023: Complete Guide To
+                                Instagram Growth</b></p>
+                        <h4 class="text-xl font-semibold "><br>rs.499 &nbsp;<a href="#"
+                                class="text-blue-500 hover:text-blue-900 "><i class="fa-solid fa-cart-plus "></i></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white border border-blue-700 rounded-lg overflow-hidden shadow-lg ">
+                <img src="./Mask group (5).png" class=" h-full object-cover">
+                <div class="p-4 flex justify-between item-center border-t border-gray-600">
+                    <div class="mt-2 item-center justify-end">
+                        <p>458 Students <span class="ml-56">03h 00m</span></p><br>
+                        <p><b>Learn 3D Modelling and Design
+                                for Beginners</b></p>
+                        <h4 class="text-xl font-semibold "><br>rs.499 &nbsp;<a href="#"
+                                class="text-blue-500 hover:text-blue-900 "><i class="fa-solid fa-cart-plus "></i></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-10 ">
+            <button type="button" class="  text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 
+                focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg 
+                text-sm px-5 py-2.5 text-center me-2 mb-2">Explore courses
+            </button>
+        </div>
+    </section>
+    <section class=" bg-gradient-to-r from-violet-400 to-indigo-900 item-center text-white font-bold w-full">
+        <div class="mt-20 pt-6">
+            <div class="text-center">
+                <h1 class="text-6xl mt-10">Why <span class="text-indigo-900">learn</span> with our courses?</h1>
+                <p class="text-3xl mt-10">We are providing the best courses and top classes.And <br>extradinery
+                    placement
+                    training.....</p>
+            </div>
+            <div class="flex justify-center text-center mt-10">
+                <div>
+                    <img src="./Icon.png" class="ml-20"><br>
+                    <h4>01. Learn</h4>
+                    <p>Learn continually. There is always <br>
+                        “one more thing”to learn.</p>
+                </div>
+                <img src="./Line 15.png" class="ml-20 mr-20">
+                <div>
+                    <img src="./Icon (1).png" class="ml-20"><br>
+                    <h4>02. Graduate</h4>
+                    <p>Be bold,be courageous, <br>
+                        be your best.</p>
+                </div>
+                <img src="./Line 15.png" class="ml-20 mr-20">
+                <div>
+                    <img src="./Vector.png" class="ml-20"><br>
+                    <h4>03. Work</h4>
+                    <p>Great companies are built in <br>
+                        the office,with hard work put <br>
+                        in by team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gradient-to-t from-white to-indigo-900">
+        <div class="text-center">
+            <h1 class="text-6xl font-bold mt-10">Top <span class="text-indigo-900">Categories</span> </h1>
+            <p class="text-3xl font-bold mt-7">100+ unique online course list designs</p>
+        </div>
+        <div class=" mt-10 w-5 grid grid-cols-2  gap-6">
+            <div class="bg-white border border-gray-600 rounded-lg shadow-lg p-4 flex item-center space-x-4">
+                <img src="./div.features-box-image.png" class="w-8 h-8 object-cover rounded-full">
+                <div>
+                    <h3 class="text-center font-semibold mb-1">Digital Marketing</h3>
+                    <p class="text-gray-400">25 Courses</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-600 rounded-lg shadow-lg p-4 flex item-center space-x-4">
+                <img src="./div.features-box-image (1).png" class="w-8 h-8 object-cover rounded-full">
+                <div>
+                    <h3 class="text-center font-semibold mb-1">Web
+                        Development</h3>
+                    <p class="text-gray-400">16 Courses</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-600 rounded-lg shadow-lg p-4 flex item-center space-x-4">
+                <img src="./div.features-box-image (2).png" class="w-8 h-8 object-cover rounded-full">
+                <div>
+                    <h3 class="text-center font-semibold mb-1">Art &
+                        Humanities</h3>
+                    <p class="text-gray-400">76 Courses</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-600 rounded-lg shadow-lg p-4 flex item-center space-x-4">
+                <img src="./div.features-box-image (3).png" class="w-8 h-8 object-cover rounded-full">
+                <div>
+                    <h3 class="text-center font-semibold mb-1">Personal
+                        Development</h3>
+                    <p class="text-gray-400">22 Courses</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-600 rounded-lg shadow-lg p-4 flex item-center space-x-4">
+                <img src="./div.features-box-image (4).png" class="w-8 h-8 object-cover rounded-full">
+                <div>
+                    <h3 class="text-center font-semibold mb-1">IT and
+                        Software</h3>
+                    <p class="text-gray-400">110 Courses</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-600 rounded-lg shadow-lg p-4 flex item-center space-x-4">
+                <img src="./div.features-box-image (5).png" class="w-8 h-8 object-cover rounded-full">
+                <div>
+                    <h3 class="text-center font-semibold mb-1">Graphic
+                        Design</h3>
+                    <p class="text-gray-400">85 Courses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class=" bg-gradient-to-r from-violet-400 to-indigo-900 flex item-center text-center text-white font-bold w-full mb-10   ">
+        <div class="ml-20 flex-1 text-center px-4 md:px-8 ">
+            <p class="text-6xl ">Subscribe For Get Update <br>
+                Every New Courses</p>
+            <p class="text-3xl ">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+            <div class="relative max-w-sm ml-96 mt-10 mb-10">
+                <!-- Textarea -->
+                <textarea id="hs-default-height-with-autoheight-script" class="max-h-36 py-3 ps-4 pe-20 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 bg-white
+                    focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none  dark:border-neutral-700 
+                    dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600 resize-none overflow-y-auto 
+                    [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:
+                    [&::-webkit-scrollbar-thumb]: dark:[&::-webkit-scrollbar-track]:bg-neutral-700 
+                    dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500" placeholder="what you want to learn today?"
+                    rows="1" data-hs-default-height="48"></textarea>
+
+                <!-- Button Group -->
+                <div class="absolute top-2 end-3 z-10">
+                    <button type="button" class="py-1.5 px-3 inline-flex shrink-0 justify-center items-center 
+                        text-sm font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-500 focus:outline-none 
+                        focus:bg-blue-500 disabled:opacity-50 disabled:pointer-events-none">
+                        <i class="fa-solid fa-magnifying-glass hover:text-gray-400 pt-1"></i>&nbsp;Send
+                    </button>
+                </div>
+            </div>
+            <!-- End Textarea -->
+        </div>
+    </section>
+    <section >
+        <div class="flex justify-center  h-60">
+            <img src="./Rectangle 8691.png" class="">
+        </div>   
+    </section>
+    <section class="mt-20">
+        <div class="text-center ">
+            <h1 class="text-6xl text-indigo-900 font-bold">Testimonials</h1>
+            <p class="text-3xl font-semibold">What our student say about us</p>
+            <p class="mt-36 text-xl font-semibold border border-white shadow-lg mx-36">Such an amazing traniner and easily understand the entire <br>
+                syllabus, and the guidence will be super and good to the way <br>
+                 of explaning.</p>
+        </div>
+    </section>
+    <section class="bg-gradient-to-r from-purple-500 to-indigo-900 object-cover pt-10">
+        <img src="./Eduvi.png">
+    </section>
+    <section>
+        <img src="" alt="">
+    </section>
+</body>
+
+</html>
